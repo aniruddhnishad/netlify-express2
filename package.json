@@ -1,11 +1,11 @@
 {
   "name": "netlify-express",
-  "version": "1.0.",
+  "version": "1.0.0",
   "description": "Express.js Netlify app.",
-  "main": "/express/server.js",
+  "main": "express/server.js",
   "scripts": {
     "build": "netlify-lambda build express",
-    "install": "netlify-lambda install express",
+    "install": "netlify-lambda install",
     "start": "netlify-lambda serve express/server"
   },
   "keywords": [
