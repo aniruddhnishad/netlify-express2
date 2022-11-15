@@ -3,9 +3,8 @@
   functions = "functions"
 
 [[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/server/:splat"
+  from = "/.netlify/functions/*"
+  to = "/server/:splat"
   status = 200
-  force = true # COMMENT: ensure that we always redirect
-  headers = {X-From = "Netlify"}
+  
 
